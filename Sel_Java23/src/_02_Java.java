@@ -8,8 +8,8 @@ public class _02_Java {
 	public static void main(String args[]) {
 		// ARRAYLIST
 		ArrayList<String> arrLi = new ArrayList<String>();
-		arrLi.add("Iylin"); // add, remove, contains, addAll, isEmpty, toArray-- UTIL package
-		arrLi.add("Jacob");
+		arrLi.add("Lin"); // add, remove, contains, addAll, isEmpty, toArray-- UTIL package
+		arrLi.add("Jake");
 		arrLi.add("Java");
 		System.out.println("2nd value from Array List =" + arrLi.get(2)); // Java
 		for (String val : arrLi) {
@@ -22,12 +22,12 @@ public class _02_Java {
 
 		// STRING METHODS - string is an object , that represents sequence of characters
 		// String literals - if value is same doesn't create new memory ,
-		String s1 = "Iylin Jacob Bridgitine";
-		String s2 = "Iylin JAcob";
+		String s1 = "Lin Jac Jake";
+		String s2 = "Lin Jac Jake";
 
 		// String new Keyword - creates new memory for every string
-		String s3 = new String("Iylin Jacob");
-		String s4 = new String("Iylin Jacob");
+		String s3 = new String("Lin Jac Jake");
+		String s4 = new String("Lin Jac Jake");
 		String[] s1Split = s1.split(" ");
 		System.out.println(s1Split[0]);
 		System.out.println("To print indiidual chars");
@@ -43,7 +43,7 @@ public class _02_Java {
 
 		_02_Java m = new _02_Java();
 		System.out.println("\n" + m.meth1());
-		System.out.println("\n Class level access with STATIC" + m.meth2());
+		System.out.println("\n Class level access with STATIC" + meth2());
 
 	}
 
