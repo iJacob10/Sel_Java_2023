@@ -10,6 +10,7 @@ public class _01_selIntro {
 		driver.get("https://mvnrepository.com/artifact/org.testng/testng/7.8.0");
 		System.out.println(driver.getTitle());
 		System.out.println(driver.getCurrentUrl());
+
 		driver.close();
 	}
 
