@@ -1,0 +1,21 @@
+Locators
+
+ID
+
+
+XPATH
+
+CSS Selector
+		Class Name -> tagname.classname 	
+		ID -> tagname#id
+		Tagname[attribute='value']
+Name
+
+Class Name
+
+Tag Name
+
+Link Text
+
+Partial Link Text
+
