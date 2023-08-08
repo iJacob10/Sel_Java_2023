@@ -4,11 +4,21 @@ ID
 
 
 XPATH
-
+		//Tagname[@attribute='value']
+		(//Tagname[@attribute='value'])[n]
+		//Tagname(contains[@attribute='val'])
+		Console - $x(//Tagname[@attribute='value'])
+		//parentTagname/childTagname
+		
+		eg:  //div[@class="username"]/button[1]
 CSS Selector
-		Class Name -> tagname.classname 	
+		Class Name -> tagname.classname 	OR    .classname
 		ID -> tagname#id
 		Tagname[attribute='value']
+		Tagname[attribute*='val']
+		Tagname[attribute='value']:nth-child(n)
+		Console - $(//Tagname[@attribute='value'])
+		parentTagname childTagname
 Name
 
 Class Name
